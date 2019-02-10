@@ -1,0 +1,12 @@
+binarySearch(tablica, number):
+    startPoint <- 0
+    endPoint <- tablica.length - 1
+    while(endpoint >= startpoint):
+        midPoint <- zaokrąglijWdół((startPoint + endpoint)/2)
+        if(tablica[midPoint] == numer):
+            return midPoint
+        if(tablica[midPoint] < numer):
+            startPoint <- midPoint + 1
+        if(tablica[midPoint] > numer):
+            endPoint <- midPoint - 1
+    return -1
